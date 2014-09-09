@@ -7,10 +7,6 @@ module Spree
       receiver.send :helper_method, :spree_current_user
     end
 
-    def spree_current_user
-      current_user
-    end
-
     def spree_login_path
       alchemy.login_path
     end
